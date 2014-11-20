@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		4555A97F1A1E8E00003DCFED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A97E1A1E8E00003DCFED /* main.m */; };
 		4555A9821A1E8E00003DCFED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A9811A1E8E00003DCFED /* AppDelegate.m */; };
-		4555A9851A1E8E00003DCFED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A9841A1E8E00003DCFED /* ViewController.m */; };
-		4555A9881A1E8E00003DCFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4555A9861A1E8E00003DCFED /* Main.storyboard */; };
 		4555A98A1A1E8E00003DCFED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4555A9891A1E8E00003DCFED /* Images.xcassets */; };
 		4555A98D1A1E8E00003DCFED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4555A98B1A1E8E00003DCFED /* LaunchScreen.xib */; };
 		4555A9991A1E8E00003DCFED /* Homepwner_tutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A9981A1E8E00003DCFED /* Homepwner_tutorialTests.m */; };
@@ -32,9 +30,6 @@
 		4555A97E1A1E8E00003DCFED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4555A9801A1E8E00003DCFED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4555A9811A1E8E00003DCFED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4555A9831A1E8E00003DCFED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4555A9841A1E8E00003DCFED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4555A9871A1E8E00003DCFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4555A9891A1E8E00003DCFED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4555A98C1A1E8E00003DCFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4555A9921A1E8E00003DCFED /* Homepwner_tutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homepwner_tutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,9 +78,6 @@
 			children = (
 				4555A9801A1E8E00003DCFED /* AppDelegate.h */,
 				4555A9811A1E8E00003DCFED /* AppDelegate.m */,
-				4555A9831A1E8E00003DCFED /* ViewController.h */,
-				4555A9841A1E8E00003DCFED /* ViewController.m */,
-				4555A9861A1E8E00003DCFED /* Main.storyboard */,
 				4555A9891A1E8E00003DCFED /* Images.xcassets */,
 				4555A98B1A1E8E00003DCFED /* LaunchScreen.xib */,
 				4555A97C1A1E8E00003DCFED /* Supporting Files */,
@@ -199,7 +191,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4555A9881A1E8E00003DCFED /* Main.storyboard in Resources */,
 				4555A98D1A1E8E00003DCFED /* LaunchScreen.xib in Resources */,
 				4555A98A1A1E8E00003DCFED /* Images.xcassets in Resources */,
 			);
@@ -219,7 +210,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4555A9851A1E8E00003DCFED /* ViewController.m in Sources */,
 				4555A9821A1E8E00003DCFED /* AppDelegate.m in Sources */,
 				4555A97F1A1E8E00003DCFED /* main.m in Sources */,
 			);
@@ -244,14 +234,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4555A9861A1E8E00003DCFED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4555A9871A1E8E00003DCFED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4555A98B1A1E8E00003DCFED /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
