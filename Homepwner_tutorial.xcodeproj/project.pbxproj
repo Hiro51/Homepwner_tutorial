@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		455023981A34918E00001A94 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 455023971A34918E00001A94 /* HeaderView.xib */; };
 		4550239C1A368B0C00001A94 /* BNRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4550239A1A368B0C00001A94 /* BNRDetailViewController.m */; };
 		4550239D1A368B0C00001A94 /* BNRDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4550239B1A368B0C00001A94 /* BNRDetailViewController.xib */; };
 		4555A97F1A1E8E00003DCFED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A97E1A1E8E00003DCFED /* main.m */; };
@@ -31,7 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		455023971A34918E00001A94 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		455023991A368B0C00001A94 /* BNRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDetailViewController.h; sourceTree = "<group>"; };
 		4550239A1A368B0C00001A94 /* BNRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDetailViewController.m; sourceTree = "<group>"; };
 		4550239B1A368B0C00001A94 /* BNRDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRDetailViewController.xib; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 				4550239B1A368B0C00001A94 /* BNRDetailViewController.xib */,
 				4555A9A51A1EFAB6003DCFED /* BNRItemsViewController.h */,
 				4555A9A61A1EFAB6003DCFED /* BNRItemsViewController.m */,
-				455023971A34918E00001A94 /* HeaderView.xib */,
 				4555A9A81A1F2788003DCFED /* BNRItem.h */,
 				4555A9A91A1F2788003DCFED /* BNRItem.m */,
 				4555A9AB1A1F294A003DCFED /* BNRItemStore.h */,
@@ -218,7 +215,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4550239D1A368B0C00001A94 /* BNRDetailViewController.xib in Resources */,
-				455023981A34918E00001A94 /* HeaderView.xib in Resources */,
 				4555A98D1A1E8E00003DCFED /* LaunchScreen.xib in Resources */,
 				4555A98A1A1E8E00003DCFED /* Images.xcassets in Resources */,
 			);
