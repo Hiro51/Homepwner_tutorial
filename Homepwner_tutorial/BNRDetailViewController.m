@@ -51,4 +51,9 @@
     
 }
 
+- (void)setItem:(BNRItem *)item {
+    _item = item;
+    self.navigationItem.title = _item.itemName;
+}
+
 @end
