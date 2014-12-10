@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4550239C1A368B0C00001A94 /* BNRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4550239A1A368B0C00001A94 /* BNRDetailViewController.m */; };
 		4550239D1A368B0C00001A94 /* BNRDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4550239B1A368B0C00001A94 /* BNRDetailViewController.xib */; };
+		455023DB1A38538900001A94 /* Homepwner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 455023D91A38538900001A94 /* Homepwner.xcdatamodeld */; };
 		4555A97F1A1E8E00003DCFED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A97E1A1E8E00003DCFED /* main.m */; };
 		4555A9821A1E8E00003DCFED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A9811A1E8E00003DCFED /* AppDelegate.m */; };
 		4555A98A1A1E8E00003DCFED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4555A9891A1E8E00003DCFED /* Images.xcassets */; };
@@ -33,6 +34,7 @@
 		455023991A368B0C00001A94 /* BNRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDetailViewController.h; sourceTree = "<group>"; };
 		4550239A1A368B0C00001A94 /* BNRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDetailViewController.m; sourceTree = "<group>"; };
 		4550239B1A368B0C00001A94 /* BNRDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRDetailViewController.xib; sourceTree = "<group>"; };
+		455023DA1A38538900001A94 /* Homepwner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Homepwner.xcdatamodel; sourceTree = "<group>"; };
 		4555A9791A1E8E00003DCFED /* Homepwner_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4555A97D1A1E8E00003DCFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4555A97E1A1E8E00003DCFED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				4555A9A91A1F2788003DCFED /* BNRItem.m */,
 				4555A9AB1A1F294A003DCFED /* BNRItemStore.h */,
 				4555A9AC1A1F294A003DCFED /* BNRItemStore.m */,
+				455023D91A38538900001A94 /* Homepwner.xcdatamodeld */,
 				4555A9891A1E8E00003DCFED /* Images.xcassets */,
 				4555A98B1A1E8E00003DCFED /* LaunchScreen.xib */,
 				4555A97C1A1E8E00003DCFED /* Supporting Files */,
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455023DB1A38538900001A94 /* Homepwner.xcdatamodeld in Sources */,
 				4550239C1A368B0C00001A94 /* BNRDetailViewController.m in Sources */,
 				4555A9AD1A1F294A003DCFED /* BNRItemStore.m in Sources */,
 				4555A9A71A1EFAB6003DCFED /* BNRItemsViewController.m in Sources */,
@@ -436,6 +440,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		455023D91A38538900001A94 /* Homepwner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				455023DA1A38538900001A94 /* Homepwner.xcdatamodel */,
+			);
+			currentVersion = 455023DA1A38538900001A94 /* Homepwner.xcdatamodel */;
+			name = Homepwner.xcdatamodeld;
+			path = ../Homepwner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4555A9711A1E8E00003DCFED /* Project object */;
 }
